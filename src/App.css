@@ -1,0 +1,83 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background: #f3f3e9;
+}
+.header {
+  padding: 14px 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+.start-screen {
+  padding-top: 20px;
+}
+.heading {
+  font-size: 54px;
+  color: #2e2e2e;
+}
+.heading span {
+  color: #b92b5d;
+  font-weight: lighter;
+}
+.heading span strong {
+  font-weight: 800;
+}
+.quiz-rules {
+  background: #d9d9d94d;
+  padding: 12px;
+  color: #373052;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.form-control {
+  margin-top: 14px;
+}
+.form-control .username-input {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  color: #373052;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.form-control .username-input::placeholder {
+  color: #2e2e2e;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.label {
+  color: #373052;
+  margin-bottom: 10px;
+  display: block;
+}
+.primary-button.btn,
+.primary-button.btn:hover {
+  background: #b92b5d;
+  color: #fff;
+}
+.primary-button.btn:disabled {
+  opacity: 0.5;
+  background: #b92b5d;
+  color: #fff;
+}
+.radio-wrapper {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+}
+.options {
+  width: 100%;
+}
+.options .form-check {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.form-check .radio-wrapper {
+  margin-bottom: 10px;
+}
+.options .form-check-input[type="radio"] {
+  margin-left: 0;
+  margin-right: 10px;
+}
